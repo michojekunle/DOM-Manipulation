@@ -117,7 +117,7 @@
 // }
 
 //keyboard 
-const add = document.querySelector('#enter');
+const userInput = document.querySelector('#enter');
  
 userInput.addEventListener('input', runEvent)
 
