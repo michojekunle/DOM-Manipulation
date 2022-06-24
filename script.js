@@ -68,10 +68,61 @@
 
 //Replacing Positions
 
-const newHeading = document.createElement('h1');
-const oldHeading = document.querySelector('h1');
-const intro = document.querySelector('.intro');
+// const newHeading = document.createElement('h1');
+// const oldHeading = document.querySelector('h1');
+// const intro = document.querySelector('.intro');
 
-newHeading.appendChild(document.createTextNode(''))
+// newHeading.appendChild(document.createTextNode('CBC TASKS LISTS'));
 
-intro.replaceChild(newHeading, oldHeading)
+// intro.replaceChild(newHeading, oldHeading);
+
+// //delete Element
+// newHeading.remove();
+
+//Event Listeners 
+//click Events
+
+// const add = document.querySelector('#enter');
+
+// console.log(add);
+
+// add.addEventListener('click', onClick)
+
+// function onClick(e) {
+//     console.log(e.offsetY);
+
+//     e.preventDefault();
+// }
+
+//Mouse Events 
+
+// const add = document.querySelector('#enter');
+
+// add.addEventListener('mouseenter', runEvent)
+
+// function runEvent(e) {
+//     console.log('hello');
+    
+//     e.preventDefault();
+// }
+
+// const userInput = document.querySelector('#user-input');
+
+// userInput.addEventListener('mouseenter', runEvent)
+
+// function runEvent(e) {
+//     console.log(e.type);
+    
+//     e.preventDefault();
+// }
+
+//keyboard 
+const add = document.querySelector('#enter');
+ 
+userInput.addEventListener('input', runEvent)
+
+function runEvent(e) {
+    console.log(e.target.value);
+    
+    e.preventDefault();
+}
